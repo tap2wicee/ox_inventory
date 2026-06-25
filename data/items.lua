@@ -1,4 +1,4 @@
-return {
+﻿return {
 	['testburger'] = {
 		label = 'Test Burger',
 		weight = 220,
@@ -222,4 +222,168 @@ return {
 		label = 'Scrap Metal',
 		weight = 80,
 	},
+-- ═══════════════════════════════════════════════════════════════════
+--  STL RP — ox_inventory custom items
+--  This block is appended to ox_inventory/data/items.lua by patch-items.bat
+-- ═══════════════════════════════════════════════════════════════════
+
+    -- ── Phones ──────────────────────────────────────────────────────
+    ['phone'] = {
+        label       = 'Phone',
+        weight      = 500,
+        stack       = false,
+        close       = true,
+        description = 'A smartphone.',
+    },
+    ['burner_phone'] = {
+        label       = 'Burner Phone',
+        weight      = 300,
+        stack       = false,
+        close       = true,
+        description = 'Untraceable. Use it and lose it.',
+    },
+
+    -- ── Drug raw materials ──────────────────────────────────────────
+    ['stl_seeds'] = {
+        label       = 'Seeds',
+        weight      = 100,
+        stack       = true,
+        close       = true,
+        description = 'Plant them somewhere safe.',
+    },
+    ['stl_powder_raw'] = {
+        label       = 'Raw Powder',
+        weight      = 200,
+        stack       = true,
+        close       = true,
+        description = nil,
+    },
+    ['stl_baking_soda'] = {
+        label       = 'Baking Soda',
+        weight      = 50,
+        stack       = true,
+        close       = true,
+        description = nil,
+    },
+    ['stl_codeine'] = {
+        label       = 'Codeine Bottle',
+        weight      = 300,
+        stack       = true,
+        close       = true,
+        description = nil,
+    },
+    ['stl_boy_raw'] = {
+        label       = 'Raw Tar',
+        weight      = 200,
+        stack       = true,
+        close       = true,
+        description = nil,
+    },
+
+    -- ── Finished drugs ──────────────────────────────────────────────
+    ['stl_loud'] = {
+        label       = 'Loud',
+        weight      = 30,
+        stack       = true,
+        close       = true,
+        description = 'Gas. Straight fire.',
+    },
+    ['stl_crack'] = {
+        label       = 'Soft',
+        weight      = 20,
+        stack       = true,
+        close       = true,
+        description = nil,
+    },
+    ['stl_blues'] = {
+        label       = 'Blues',
+        weight      = 5,
+        stack       = true,
+        close       = true,
+        description = nil,
+    },
+    ['stl_lean'] = {
+        label       = 'Wock',
+        weight      = 200,
+        stack       = true,
+        close       = true,
+        description = nil,
+    },
+    ['stl_boy'] = {
+        label       = 'Boy',
+        weight      = 10,
+        stack       = true,
+        close       = true,
+        description = nil,
+    },
+
+    -- ── Tools ───────────────────────────────────────────────────────
+    ['slim_jim'] = {
+        label       = 'Slim Jim',
+        weight      = 200,
+        stack       = true,
+        close       = true,
+        description = 'For getting into locked cars.',
+    },
+    ['lockpick'] = {
+        label       = 'Lockpick',
+        weight      = 100,
+        stack       = true,
+        close       = true,
+        description = nil,
+    },
+
+    -- ── Job items ───────────────────────────────────────────────────
+    ['trap_package'] = {
+        label       = 'Package',
+        weight      = 500,
+        stack       = false,
+        close       = true,
+        description = 'Don\'t open it. Just deliver it.',
+    },
+    ['fake_ticket'] = {
+        label       = 'Fake Ticket',
+        weight      = 50,
+        stack       = true,
+        close       = true,
+        description = 'Convincing forgery.',
+    },
+
+    -- ── General consumables / loot ──────────────────────────────────
+    ['first_aid_kit'] = {
+        label       = 'First Aid Kit',
+        weight      = 500,
+        stack       = true,
+        close       = true,
+        description = 'Basic medical supplies.',
+    },
+    ['sandwich'] = {
+        label       = 'Sandwich',
+        weight      = 100,
+        stack       = true,
+        close       = true,
+        description = 'From the corner store.',
+    },
+    ['weed_joint'] = {
+        label       = 'Joint',
+        weight      = 20,
+        stack       = true,
+        close       = true,
+        description = nil,
+    },
+    ['radio'] = {
+        label       = 'Radio',
+        weight      = 300,
+        stack       = false,
+        close       = false,
+        description = 'Frequency comms.',
+    },
+    ['pistol_ammo'] = {
+        label       = 'Pistol Ammo',
+        weight      = 50,
+        stack       = true,
+        close       = true,
+        description = nil,
+    },
+
 }
